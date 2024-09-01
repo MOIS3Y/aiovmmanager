@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aiovmmanager"
+version = "0.1.0"
+description = "Async lib based on aiohttp for working with the VMmanager6 API"
+authors = ["MOIS3Y <stepan@zhukovsky.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.10.5"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
