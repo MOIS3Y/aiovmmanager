@@ -57,6 +57,9 @@ and use the context manager syntax
 
 ## Installation
 
+### Requirements
+- python = `^3.9`
+
 ### Manual
 - install dependency `pip install aiohttp`
 - copy the aiovmmanager package to your project
